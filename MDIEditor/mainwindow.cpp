@@ -192,7 +192,7 @@ void MainWindow::createActions()
     connect(closeAllAction, SIGNAL(triggered(bool)), this, SLOT(close()));
 
 
-    titleAction = new QAction(tr("&New"), this);
+    titleAction = new QAction(tr("&Title"), this);
     titleAction->setStatusTip(tr("Title this window"));
     connect(titleAction, SIGNAL(triggered(bool)), mdiArea, SLOT(titleSubWindows()));
 
